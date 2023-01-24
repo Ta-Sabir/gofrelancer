@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>غو فريلانس أكاديمي</title>
+    <link rel="icon" href="Images/icon.png" />
+    <!--Render All Nlements Normaly -->
+    <link rel="stylesheet" href="Css/normalize.css" />
+    <!--Font Awsome Library-->
+    <link rel="stylesheet" href="Css/all.min.css" />
+    <!-- Main Templete Css File -->
+    <link rel="stylesheet" href="Css/style.css" />
+    <link rel="stylesheet" href="Css/prices.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Reem+Kufi:wght@400;500;600;700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body dir="rtl">
+    <!-- Start Loader Section -->
+    <div class="loader">
+      <div class="container-loader">
+        <svg class="gegga">
+          <defs>
+            <filter id="gegga">
+              <feGaussianBlur
+                in="SourceGraphic"
+                stdDeviation="7"
+                result="blur"
+              />
+              <feColorMatrix
+                in="blur"
+                mode="matrix"
+                values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 20 -10"
+                result="inreGegga"
+              />
+              <feComposite in="SourceGraphic" in2="inreGegga" operator="atop" />
+            </filter>
+          </defs>
+        </svg>
+        <svg class="snurra" width="200" height="200" viewBox="0 0 200 200">
+          <defs>
+            <linearGradient id="linjärGradient">
+              <stop class="stopp1" offset="0" />
+              <stop class="stopp2" offset="1" />
+            </linearGradient>
+            <linearGradient
+              y2="160"
+              x2="160"
+              y1="40"
+              x1="40"
+              gradientUnits="userSpaceOnUse"
+              id="gradient"
+              xlink:href="#linjärGradient"
+            />
+          </defs>
+          <path
+            class="halvan"
+            d="m 164,100 c 0,-35.346224 -28.65378,-64 -64,-64 -35.346224,0 -64,28.653776 -64,64 0,35.34622 28.653776,64 64,64 35.34622,0 64,-26.21502 64,-64 0,-37.784981 -26.92058,-64 -64,-64 -37.079421,0 -65.267479,26.922736 -64,64 1.267479,37.07726 26.703171,65.05317 64,64 37.29683,-1.05317 64,-64 64,-64"
+          />
+          <circle class="strecken" cx="100" cy="100" r="64" />
+        </svg>
+      </div>
+    </div>
+    <div class="loaderSection">
+      <div class="topLoader"></div>
+      <div class="bottomLoader"></div>
+    </div>
+    <!-- End Loader Section -->
+    <!-- Start Menu Box -->
+    <div class="menu-box">
+      <a href="#landing" class="logo">
+        <img src="Images/logo.png" alt="" />
+      </a>
+      <ul class="menu-links">
+        <li><a href="#landing"> الرئيسية</a></li>
+        <li><a href="#why"> لماذا نحن ؟</a></li>
+        <li><a href="#work">كيف نعمل ؟</a></li>
+        <li><a href="#register"> كيف أسجل ؟</a></li>
+        <li><a href="#services"> خدماتنا</a></li>
+        <li><a href="#team">فريقنا</a></li>
+      </ul>
+    </div>
+    <!-- End Menu Box -->
+    <!-- Start Header Section -->
+    <div class="header">
+      <div class="container">
+        <a href="#landing" class="logo">
+          <img src="Images/logo.png" alt="" />
+        </a>
+        <ul class="links">
+          <li><a href="#landing"> الرئيسية</a></li>
+          <li><a href="#why"> لماذا نحن ؟</a></li>
+          <li><a href="#work">كيف نعمل ؟</a></li>
+          <li><a href="#register"> كيف أسجل ؟</a></li>
+          <li><a href="#services"> خدماتنا</a></li>
+          <li><a href="#team">فريقنا</a></li>
+        </ul>
+        <!-- Start icon dark Mode -->
+        <div class="headerBox">
+          <div class="toggleDark">
+            <div class="flicker"></div>
+            <div for="togglebtn">
+              <i class="fa-solid fa-sun sun icon"></i>
+              <i class="fa-solid fa-moon moon icon"></i>
+            </div>
+          </div>
+          <div class="menu-icon" id="menu">
+            <div class="menu-bar"></div>
+          </div>
+        </div>
+      </div>
+      <!-- End icon dark Mode -->
+    </div>
+    <!-- End Header Section -->
+    <!-- Start Landing Page -->
+    <div class="landing" id="landing">
+      <div class="container">
+        <div class="contentLanding">
+          <h3>
+            <span>غو فريلانس أكاديمي </span>بوابتك الأولى جزائريا في خدمات
+            كورسات وأسرار العمل الحر والربح من الأنترنت
+          </h3>
+          <img src="Images/bg-image.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End Landing Page -->
+    <!-- Start Number Section -->
+    <div class="number">
+      <div class="container">
+        <div class="number-boxs">
+          <div class="number-box">
+            <div class="icon-box">
+              <i class="fa-solid fa-truck-fast"></i>
+              <h3>الطلبات</h3>
+            </div>
+            <span class="num" data-num="11">000</span>
+          </div>
+          <div class="number-box">
+            <div class="icon-box">
+              <i class="fa-solid fa-users"></i>
+              <h3>العملاء</h3>
+            </div>
+            <span class="num" data-num="400">000</span>
+          </div>
+          <div class="number-box">
+            <div class="icon-box">
+              <i class="fa-solid fa-people-group"></i>
+              <h3>الشركاء</h3>
+            </div>
+            <span class="num" data-num="400">000</span>
+          </div>
+          <div class="number-box">
+            <div class="icon-box">
+              <i class="fa-solid fa-globe"></i>
+              <h3>موقع إلكتروني</h3>
+            </div>
+            <span class="num" data-num="400">000</span>
+          </div>
+          <div class="number-box">
+            <div class="icon-box">
+              <i class="fa-brands fa-sketch"></i>
+              <h3>تصميم UI/UX</h3>
+            </div>
+            <span class="num" data-num="400">000</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Number Section -->
+    <!-- Start Why Saber Web -->
+    <div class="why" id="why">
+      <div class="main-title">
+        <h2 class="title">
+          لماذا غو فريلانس أكاديمي ؟
+        </h2>
+        <p class="pargraph">
+          لماذا تختار غو فريلانس اكاديمي لخدمتك وفتح أبواب الرزق والربح من
+          الأنترنت والعمل الحر في الجزائر ؟
+        </p>
+      </div>
+      <div class="container">
+        <div class="why-boxs">
+          <div class="why-box">
+            <div class="icon-box">
+              <i class="fa-solid fa-credit-card"></i>
+            </div>
+            <div class="content-box">
+              <h3>
+                أفضل موقع جزائري لتعلم أسرار وخبايا وطرق الربح من الأنترنت
+              </h3>
+              <p>
+                نعمل يومياً على إضافة دروس و مقالات و كتب و مشاريع جديدة لمواكبة
+                كل ما هو جديد حتى نوفر لكم كل ما تحتاجوه في دراستكم و في سوق
+                العمل الحر . عند إضافة أي جديد نبلغكم على حسابات الموقع الرسمية
+                وكذلك مع تحديثات يوميا لطرق الربح من الأنترنت بكورسات احترافية
+                مقدمة من استاذة معروفين وطنيا.
+              </p>
+            </div>
+          </div>
+          <div class="why-box active">
+            <div class="icon-box">
+              <i class="fa-solid fa-coins"></i>
+            </div>
+            <div class="content-box">
+              <h3>طرق دفع متعددة</h3>
+              <p>
+                توفر عدة طرق للدفع لجميع العملاء في مختلف بقاع الجزائر والعالم
+                من خلال الطرق البنكية التقليدية أو عن طريق البنوك الاٍلكترونية ,
+                أو من خلال الفيزا كارد او عبر البريد CCP او خدمة الدفع بالهاتف
+                بريدي موب.
+              </p>
+            </div>
+          </div>
+          <div class="why-box">
+            <div class="icon-box">
+              <i class="fa-solid fa-rocket"></i>
+            </div>
+            <div class="content-box">
+              <h3>
+                سرعة تطور مهاراتك وبداية إكتساب ارباحك الأولى معنا
+              </h3>
+              <p>
+                نحن نقدم أفضل تجربة أداء ستشعر بها كزبون وطالب لدينا من الهدوء
+                والإستقرار واحترافية تعاملنا معاك أثناء وقبل الكورسات وبعده مع
+                تلبية والرد على جميع استفساراتك في أسرع وقت حول اي مجال في
+                التجارة الإلكترونية مع الاٍطلاع على مشروعك خطوة بخطوة ومع
+                التطورات التي تحدث عليه سنضمن لك بداية ناجحة ماليا وبداية مشروع
+                ناجح لك وبداية تحقيق مبالغ مالية محترمة لك وكيفية تطوير مشروعك
+                كي ينافس أكبر المشاريع في مجاله.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="why-image">
+          <img src="Images/why.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End Why Saber Web -->
+    <!-- Start How Do We Work -->
+    <div class="work" id="work">
+      <div class="main-title">
+        <h2 class="title">
+          كيف نعمل في أكاديمية غو فريلانس ؟
+        </h2>
+        <p class="pargraph">تعرف كيف تعمل منصة غو فريلانس</p>
+      </div>
+      <div class="container">
+        <div class="work-image">
+          <img src="Images/work.png" alt="" />
+        </div>
+        <div class="work-boxs">
+          <div class="work-box">
+            <i class="fa-solid fa-1 workOne"></i>
+            <div class="work-icon">
+              <i class="fa-brands fa-shopify"></i>
+              <h3>
+                إختيار الكورس الذي سيعلمك المجال الذي ترغب به
+              </h3>
+            </div>
+            <p>
+              تبدأ خدماتنا من عند العميل حيث يختار الكورس الإحترافي المناسب
+              لخدماته والتي سيقدمها لزبائنه مستقبلا بطريقة احترافية بعد تعلمه من
+              الكورس الذي سيمد العميل بخبرة تفوق 5 سنوات في المجال الذي اختاره
+              لدخول عالم التجارة الالكترونية وبداية تحقيقه لارباحه التي يطلبها.
+            </p>
+          </div>
+          <div class="work-box active">
+            <i class="fa-solid fa-2 workTow"></i>
+            <div class="work-icon">
+              <i class="fa-solid fa-print"></i>
+              <h3>
+                بداية الكورس و بداية إكتشاف العالم المخفي لك
+              </h3>
+            </div>
+            <p>
+              سيكون العميل سعيدا مباشرة بعد بداية الكورس لانه سيكتشف العالم
+              المخفي له خصوصا اننا سنقدم عبر أستاذتنا بخبرتهم الكبيرة في مجال
+              التجارة الالكترونية عدة أسرار وخفايا لتحقيق احترافية كبيرة جدا في
+              مجال التجارة الالكترونية وكيفية بداية مشروعك خطوة بخطوة الى غاية
+              تحقيق الأرباح منه بطريقة احترافية وغير مسبوقة في الجزائر.
+            </p>
+          </div>
+          <div class="work-box">
+            <i class="fa-solid fa-3 workThree"></i>
+            <div class="work-icon">
+              <i class="fa-solid fa-briefcase"></i>
+              <h3>
+                إفتتاح مشروعك الأول وبداية تحقيق الأرباح
+              </h3>
+            </div>
+            <p>
+              بعد ان ينتهي العميل من الكورس الذي سيعلمه معرفة كبيرة وتعطيه خبرة
+              كبيرة ستجعله يحترف عدة مجالات من احتراف الترويج بطريقة ستضمن لك
+              النجاحات وارباح ومبيعات الى غاية دخوله لعالم التجارة الالكترونية
+              وانشاء متجره الالكترونية وبداية مبيعات لمنتجاته وتحقيقه للأرباح
+              الى غاية تطويره ومنافسة شركات ومنصات أخرى في السوق بشكل احترافي.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End How Do We Work -->
+    <!-- Start How do I register -->
+    <div class="register" id="register">
+      <div class="main-title">
+        <h2 class="title">كيف أسجل ؟</h2>
+        <p class="pargraph">
+          تعرف على كيفية التسجيل في اكاديمية غو فريلانس
+        </p>
+      </div>
+      <div class="container">
+        <div class="how-image">
+          <img src="Images/regist.png" />
+        </div>
+        <div class="how-boxs">
+          <h3>
+            هيا بنا بضع خطوات سهلة للتسجيل في أكاديمية غو فريلانس !
+          </h3>
+          <p>
+            إتبع الخطوات للتسجيل للإنطلاق معنا في رحلة إكتشاف عالم التجارة
+            الالكترونية
+          </p>
+          <div class="how-box">
+            <div class="how-boxs-numb">
+              <div class="how-box-numb">1</div>
+              <div class="how-box-numb-line"></div>
+              <div class="how-box-numb">2</div>
+              <div class="how-box-numb-lineDashed"></div>
+              <div class="how-box-numb">3</div>
+              <div class="how-box-numb-line"></div>
+              <div class="how-box-numb">4</div>
+            </div>
+            <div class="how-boxs-content">
+              <div class="how-box-content">
+                قم بمراسلاتنا على صفحتنا عبر الفيسبوك او عبر الاتصال بنا عبر رقم
+                الهاتف من اجل حجز مكان لك.
+              </div>
+              <div class="how-box-numb-line active"></div>
+              <div class="how-box-content">
+                سيتواصل معكم فريقنا من اجل الدفع ثم ارسال لك رابط الدورة من أجل
+                التسجيل
+              </div>
+              <div class="how-box-numb-lineDashed active"></div>
+              <div class="how-box-content">
+                قم بالتسجيل أولا و ذلك باٍنشاء حساب جديد بملئ المعلومات المطلوبة
+                في الرابط الذي سنرسله لك من اجل امكانية وصول كاملة للدورة وكل
+                خصائصها
+              </div>
+              <div class="how-box-numb-line active"></div>
+              <div class="how-box-content">
+                بعد قبول حسابك إنطلق في الدورة وستكتشف كم ستسفيد من خبرة سنواتنا
+                في التجارة الإلكترونية وستحقق ما تطمح له عبر الدورة التي ستفتح
+                لك كل أبواب النجاح واسرار العالم الرقمي وتحقيق المبيعات وبداية
+                مشروعك ونجاحه الى غاية وصوله للعالمية.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End How do I register -->
+    <!-- Start Our services Section -->
+    <div class="services" id="services">
+      <div class="main-title">
+        <h2 class="title">خدماتنا</h2>
+        <p class="pargraph">تعرف على خدماتنا</p>
+      </div>
+      <div class="container">
+        <div class="services-boxs">
+          <div class="service-box">
+            <i class="fa-solid fa-palette"></i>
+            <h3 >
+              عالم التجارة الإلكترونية وأسرار تحقيق الربح وإنشاء مشروعك وتحقيق
+              المبيعات
+            </h3>
+            <a class="btn">احجز الآن</a>
+          </div>
+          <div class="service-box">
+            <i class="fa-solid fa-shop"></i>
+            <h3>
+              دورة إحتراف الترويج بالأحرى Meta Ads حيث ستحترف الترويج بطريقة
+              إستثنائية وحصرية في الجزائر ستعود عليك بمداخيل كبيرة لك ولمشروعك
+              أو للمشروعات التي تقوم بترويجها حاليا.
+            </h3>
+            <a class="btn">احجز الآن</a>
+          </div>
+          <div class="service-box">
+            <i class="fa-solid fa-globe"></i>
+            <h3>
+              كورس إحتراف انشاء المواقع " ورد بريس " حيث ستتمكن من انشاء مواقع
+              احترافية يمكنك بيعها وجني الكثير وتطوير وصقل مهاراتك لجعل انشاء
+              المواقع مصدر دخل دائم لك.
+            </h3>
+            <a class="btn">احجز الآن</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Our services Section -->
+    <!-- Start Team Section -->
+    <div class="team" id="team">
+      <div class="main-title">
+        <h2 class="title">فريقنا</h2>
+        <p class="pargraph">تعرف على أعضاء فريقنا الرائعين</p>
+      </div>
+      <div class="container">
+        <div class="team-boxs">
+          <div class="team-box">
+            <img src="Images/anis.jpeg" alt="" />
+            <h3>الأستاذ والمبرمج أنيس</h3>
+            <p>
+              شاب جزائري بخبرة سنوات كبيرة في المجال وخبير في التسويق و في
+              التجارة الالكترونية يسعى لوضع خبرته لدى الشباب الجزائري والعربي من
+              اجل تحقيق أهداف مشاريعهم وزيادة أرباحهم وتحقيق الحرية المالية من
+              خلال تقديم كورسات احترافية لسقل المهارات وتطويرها لاقصى الحدود
+              لنتائج مالية أفضل.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Team Section -->
+    <!-- Satrt Icon Scrool Top -->
+    <a href="#landing" class="icon-top">
+      <div class="iconsrccoltop">
+        <i class="fa-solid fa-angles-up"></i>
+      </div>
+    </a>
+    <!-- End Icon Scrool Top -->
+    <!-- Start Made With Section -->
+    <div class="made">
+      <p>جميع الحقوق محفوظة لموقع غو فريلانس أكاديمي</p>
+    </div>
+    <!-- End Made With Section -->
+    <script src="JavaScript/script.js"></script>
+  </body>
+</html>
