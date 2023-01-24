@@ -791,7 +791,7 @@ button:disabled {
   border-radius: 30px;
   text-align: center;
   padding: 10px;
-  height: 290px;
+  height: 315px;
   cursor: pointer;
   transition: var(--main-transition);
 }
