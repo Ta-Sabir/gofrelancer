@@ -851,7 +851,15 @@ button:disabled {
   padding: var(--padding) 0;
 }
 .team .team-boxs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+  gap: 20px;
   margin-top: 60px;
+}
+@media (max-width:767px){
+  .team .team-boxs {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
 }
 .team .team-box {
   background-color: var(--thrid-color);
